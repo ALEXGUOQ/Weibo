@@ -8,10 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ECE8A73F1B61D83C00E4C1C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A73E1B61D83C00E4C1C2 /* main.m */; };
-		ECE8A7421B61D83C00E4C1C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7411B61D83C00E4C1C2 /* AppDelegate.m */; };
 		ECE8A74A1B61D83C00E4C1C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE8A7491B61D83C00E4C1C2 /* Images.xcassets */; };
 		ECE8A74D1B61D83C00E4C1C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE8A74B1B61D83C00E4C1C2 /* LaunchScreen.xib */; };
 		ECE8A7591B61D83C00E4C1C2 /* WeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7581B61D83C00E4C1C2 /* WeiBoTests.m */; };
+		ECE8A77C1B61DBC100E4C1C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A77B1B61DBC100E4C1C2 /* AppDelegate.m */; };
+		ECE8A79C1B61DC8300E4C1C2 /* HALDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7811B61DC8300E4C1C2 /* HALDiscoverController.m */; };
+		ECE8A79D1B61DC8300E4C1C2 /* HALHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7871B61DC8300E4C1C2 /* HALHomeController.m */; };
+		ECE8A79F1B61DC8300E4C1C2 /* HALMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7901B61DC8300E4C1C2 /* HALMessageController.m */; };
+		ECE8A7A01B61DC8300E4C1C2 /* HALTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7951B61DC8300E4C1C2 /* HALTestViewController.m */; };
+		ECE8A7A11B61DC8300E4C1C2 /* HALProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7991B61DC8300E4C1C2 /* HALProfileController.m */; };
+		ECE8A7B61B6213E000E4C1C2 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7AE1B6213E000E4C1C2 /* UIBarButtonItem+Extension.m */; };
+		ECE8A7B71B6213E000E4C1C2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7B01B6213E000E4C1C2 /* UIView+Extension.m */; };
+		ECE8A7B81B6213E000E4C1C2 /* HALMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7B31B6213E000E4C1C2 /* HALMainViewController.m */; };
+		ECE8A7B91B6213E000E4C1C2 /* HALNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7B51B6213E000E4C1C2 /* HALNavgationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +37,32 @@
 		ECE8A7391B61D83B00E4C1C2 /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE8A73D1B61D83C00E4C1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE8A73E1B61D83C00E4C1C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ECE8A7401B61D83C00E4C1C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ECE8A7411B61D83C00E4C1C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ECE8A7491B61D83C00E4C1C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ECE8A74C1B61D83C00E4C1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ECE8A7521B61D83C00E4C1C2 /* WeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE8A7571B61D83C00E4C1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE8A7581B61D83C00E4C1C2 /* WeiBoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiBoTests.m; sourceTree = "<group>"; };
+		ECE8A77A1B61DBC100E4C1C2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		ECE8A77B1B61DBC100E4C1C2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		ECE8A7801B61DC8300E4C1C2 /* HALDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALDiscoverController.h; sourceTree = "<group>"; };
+		ECE8A7811B61DC8300E4C1C2 /* HALDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALDiscoverController.m; sourceTree = "<group>"; };
+		ECE8A7861B61DC8300E4C1C2 /* HALHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALHomeController.h; sourceTree = "<group>"; };
+		ECE8A7871B61DC8300E4C1C2 /* HALHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALHomeController.m; sourceTree = "<group>"; };
+		ECE8A78F1B61DC8300E4C1C2 /* HALMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALMessageController.h; sourceTree = "<group>"; };
+		ECE8A7901B61DC8300E4C1C2 /* HALMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALMessageController.m; sourceTree = "<group>"; };
+		ECE8A7941B61DC8300E4C1C2 /* HALTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALTestViewController.h; sourceTree = "<group>"; };
+		ECE8A7951B61DC8300E4C1C2 /* HALTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALTestViewController.m; sourceTree = "<group>"; };
+		ECE8A7981B61DC8300E4C1C2 /* HALProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALProfileController.h; sourceTree = "<group>"; };
+		ECE8A7991B61DC8300E4C1C2 /* HALProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALProfileController.m; sourceTree = "<group>"; };
+		ECE8A7A81B61E47300E4C1C2 /* WeiBo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiBo.pch; sourceTree = "<group>"; };
+		ECE8A7AD1B6213E000E4C1C2 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		ECE8A7AE1B6213E000E4C1C2 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		ECE8A7AF1B6213E000E4C1C2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		ECE8A7B01B6213E000E4C1C2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		ECE8A7B21B6213E000E4C1C2 /* HALMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALMainViewController.h; sourceTree = "<group>"; };
+		ECE8A7B31B6213E000E4C1C2 /* HALMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALMainViewController.m; sourceTree = "<group>"; };
+		ECE8A7B41B6213E000E4C1C2 /* HALNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALNavgationController.h; sourceTree = "<group>"; };
+		ECE8A7B51B6213E000E4C1C2 /* HALNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALNavgationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +104,7 @@
 		ECE8A73B1B61D83B00E4C1C2 /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				ECE8A7401B61D83C00E4C1C2 /* AppDelegate.h */,
-				ECE8A7411B61D83C00E4C1C2 /* AppDelegate.m */,
+				ECE8A77D1B61DC8300E4C1C2 /* Classes */,
 				ECE8A7491B61D83C00E4C1C2 /* Images.xcassets */,
 				ECE8A74B1B61D83C00E4C1C2 /* LaunchScreen.xib */,
 				ECE8A73C1B61D83B00E4C1C2 /* Supporting Files */,
@@ -109,6 +136,194 @@
 				ECE8A7571B61D83C00E4C1C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECE8A77D1B61DC8300E4C1C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A77E1B61DC8300E4C1C2 /* Discover */,
+				ECE8A7841B61DC8300E4C1C2 /* Home */,
+				ECE8A78A1B61DC8300E4C1C2 /* Main */,
+				ECE8A78D1B61DC8300E4C1C2 /* Message */,
+				ECE8A7931B61DC8300E4C1C2 /* Other */,
+				ECE8A7961B61DC8300E4C1C2 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECE8A77E1B61DC8300E4C1C2 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A77F1B61DC8300E4C1C2 /* Controller */,
+				ECE8A7821B61DC8300E4C1C2 /* Model */,
+				ECE8A7831B61DC8300E4C1C2 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		ECE8A77F1B61DC8300E4C1C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A7801B61DC8300E4C1C2 /* HALDiscoverController.h */,
+				ECE8A7811B61DC8300E4C1C2 /* HALDiscoverController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECE8A7821B61DC8300E4C1C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECE8A7831B61DC8300E4C1C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECE8A7841B61DC8300E4C1C2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A7851B61DC8300E4C1C2 /* Controller */,
+				ECE8A7881B61DC8300E4C1C2 /* Model */,
+				ECE8A7891B61DC8300E4C1C2 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ECE8A7851B61DC8300E4C1C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A7861B61DC8300E4C1C2 /* HALHomeController.h */,
+				ECE8A7871B61DC8300E4C1C2 /* HALHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECE8A7881B61DC8300E4C1C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECE8A7891B61DC8300E4C1C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECE8A78A1B61DC8300E4C1C2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A7AC1B6213E000E4C1C2 /* Category */,
+				ECE8A7B11B6213E000E4C1C2 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ECE8A78D1B61DC8300E4C1C2 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A78E1B61DC8300E4C1C2 /* Controller */,
+				ECE8A7911B61DC8300E4C1C2 /* Model */,
+				ECE8A7921B61DC8300E4C1C2 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		ECE8A78E1B61DC8300E4C1C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A78F1B61DC8300E4C1C2 /* HALMessageController.h */,
+				ECE8A7901B61DC8300E4C1C2 /* HALMessageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECE8A7911B61DC8300E4C1C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECE8A7921B61DC8300E4C1C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECE8A7931B61DC8300E4C1C2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A77A1B61DBC100E4C1C2 /* AppDelegate.h */,
+				ECE8A77B1B61DBC100E4C1C2 /* AppDelegate.m */,
+				ECE8A7941B61DC8300E4C1C2 /* HALTestViewController.h */,
+				ECE8A7951B61DC8300E4C1C2 /* HALTestViewController.m */,
+				ECE8A7A81B61E47300E4C1C2 /* WeiBo.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ECE8A7961B61DC8300E4C1C2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A7971B61DC8300E4C1C2 /* Controller */,
+				ECE8A79A1B61DC8300E4C1C2 /* Model */,
+				ECE8A79B1B61DC8300E4C1C2 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		ECE8A7971B61DC8300E4C1C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A7981B61DC8300E4C1C2 /* HALProfileController.h */,
+				ECE8A7991B61DC8300E4C1C2 /* HALProfileController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECE8A79A1B61DC8300E4C1C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECE8A79B1B61DC8300E4C1C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECE8A7AC1B6213E000E4C1C2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A7AD1B6213E000E4C1C2 /* UIBarButtonItem+Extension.h */,
+				ECE8A7AE1B6213E000E4C1C2 /* UIBarButtonItem+Extension.m */,
+				ECE8A7AF1B6213E000E4C1C2 /* UIView+Extension.h */,
+				ECE8A7B01B6213E000E4C1C2 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ECE8A7B11B6213E000E4C1C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8A7B21B6213E000E4C1C2 /* HALMainViewController.h */,
+				ECE8A7B31B6213E000E4C1C2 /* HALMainViewController.m */,
+				ECE8A7B41B6213E000E4C1C2 /* HALNavgationController.h */,
+				ECE8A7B51B6213E000E4C1C2 /* HALNavgationController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +425,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE8A7421B61D83C00E4C1C2 /* AppDelegate.m in Sources */,
+				ECE8A7B71B6213E000E4C1C2 /* UIView+Extension.m in Sources */,
+				ECE8A79D1B61DC8300E4C1C2 /* HALHomeController.m in Sources */,
 				ECE8A73F1B61D83C00E4C1C2 /* main.m in Sources */,
+				ECE8A7A11B61DC8300E4C1C2 /* HALProfileController.m in Sources */,
+				ECE8A7A01B61DC8300E4C1C2 /* HALTestViewController.m in Sources */,
+				ECE8A7B81B6213E000E4C1C2 /* HALMainViewController.m in Sources */,
+				ECE8A7B61B6213E000E4C1C2 /* UIBarButtonItem+Extension.m in Sources */,
+				ECE8A79F1B61DC8300E4C1C2 /* HALMessageController.m in Sources */,
+				ECE8A79C1B61DC8300E4C1C2 /* HALDiscoverController.m in Sources */,
+				ECE8A7B91B6213E000E4C1C2 /* HALNavgationController.m in Sources */,
+				ECE8A77C1B61DBC100E4C1C2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = "$(SRCROOT)/Classes/Other/Weibo.pch";
 				INFOPLIST_FILE = WeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = "$(SRCROOT)/Classes/Other/Weibo.pch";
 				INFOPLIST_FILE = WeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,6 +624,7 @@
 				ECE8A75E1B61D83C00E4C1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECE8A75F1B61D83C00E4C1C2 /* Build configuration list for PBXNativeTarget "WeiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +633,7 @@
 				ECE8A7611B61D83C00E4C1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
