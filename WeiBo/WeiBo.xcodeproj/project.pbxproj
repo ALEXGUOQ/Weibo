@@ -21,6 +21,7 @@
 		ECE8A7B71B6213E000E4C1C2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7B01B6213E000E4C1C2 /* UIView+Extension.m */; };
 		ECE8A7B81B6213E000E4C1C2 /* HALMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7B31B6213E000E4C1C2 /* HALMainViewController.m */; };
 		ECE8A7B91B6213E000E4C1C2 /* HALNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8A7B51B6213E000E4C1C2 /* HALNavgationController.m */; };
+		ECEBAEFF1B65E8A9004E73BD /* HALSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEBAEFE1B65E8A9004E73BD /* HALSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		ECE8A7B31B6213E000E4C1C2 /* HALMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALMainViewController.m; sourceTree = "<group>"; };
 		ECE8A7B41B6213E000E4C1C2 /* HALNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALNavgationController.h; sourceTree = "<group>"; };
 		ECE8A7B51B6213E000E4C1C2 /* HALNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALNavgationController.m; sourceTree = "<group>"; };
+		ECEBAEFD1B65E8A9004E73BD /* HALSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALSearchBar.h; sourceTree = "<group>"; };
+		ECEBAEFE1B65E8A9004E73BD /* HALSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +223,7 @@
 		ECE8A78A1B61DC8300E4C1C2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				ECEBAEFC1B65E889004E73BD /* View */,
 				ECE8A7AC1B6213E000E4C1C2 /* Category */,
 				ECE8A7B11B6213E000E4C1C2 /* Controller */,
 			);
@@ -324,6 +328,15 @@
 				ECE8A7B51B6213E000E4C1C2 /* HALNavgationController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECEBAEFC1B65E889004E73BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECEBAEFD1B65E8A9004E73BD /* HALSearchBar.h */,
+				ECEBAEFE1B65E8A9004E73BD /* HALSearchBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +447,7 @@
 				ECE8A7B61B6213E000E4C1C2 /* UIBarButtonItem+Extension.m in Sources */,
 				ECE8A79F1B61DC8300E4C1C2 /* HALMessageController.m in Sources */,
 				ECE8A79C1B61DC8300E4C1C2 /* HALDiscoverController.m in Sources */,
+				ECEBAEFF1B65E8A9004E73BD /* HALSearchBar.m in Sources */,
 				ECE8A7B91B6213E000E4C1C2 /* HALNavgationController.m in Sources */,
 				ECE8A77C1B61DBC100E4C1C2 /* AppDelegate.m in Sources */,
 			);

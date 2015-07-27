@@ -8,6 +8,7 @@
 
 #import "HALDiscoverController.h"
 #import "UIView+Extension.h"
+#import "HALSearchBar.h"
 
 @interface HALDiscoverController ()
 
@@ -18,22 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UITextField *search = [[UITextField alloc] init];
+    HALSearchBar *search = [HALSearchBar searchBar];
     search.width = 300;
     search.height = 30;
-    search.background = [UIImage imageNamed:@"searchbar_textfield_background"];
-    search.clearsOnBeginEditing = YES;
-    search.clearButtonMode = UITextFieldViewModeAlways;
-    
-    search.font = [UIFont systemFontOfSize:13];
-    
-    UIImageView *searchIcon = [[UIImageView alloc] init];
-    searchIcon.image = [UIImage imageNamed:@"searchbar_textfield_search_icon"];
-    searchIcon.width = 30;
-    searchIcon.height = 30;
-    searchIcon.contentMode = UIViewContentModeCenter;
-    search.leftView = searchIcon;
-    search.leftViewMode = UITextFieldViewModeAlways;
     
     self.navigationItem.titleView = search;
 }
